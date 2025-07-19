@@ -14,9 +14,10 @@ const Header = () => {
           <span style={{ color: "#0bc5ea", fontWeight: "bold" }}>
             <Typewriter
               words={[
-                "Full Stack Developer 🚀",
-                "AI & ML Enthusiast 🤖",
-                "Web Developer 💻",
+                "AI/ML Developer 🤖",
+                "Full Stack Engineer 🚀",
+                "NLP + CV Enthusiast 🎥",
+                "Open-Source Contributor 🛠️",
               ]}
               loop={0}
               cursor
@@ -28,9 +29,7 @@ const Header = () => {
           </span>
         </h2>
         <p>
-          Passionate about building innovative solutions using cutting-edge
-          technologies like AI, React, and machine learning. Let's connect and
-          build something amazing!
+          Passionate about solving complex problems with a mix of AI, NLP, full-stack web tech, and system design—I thrive at the intersection of intelligent models and intuitive interfaces. Let’s connect and build something amazing!
         </p>
 
         <div className="header-payment-container">

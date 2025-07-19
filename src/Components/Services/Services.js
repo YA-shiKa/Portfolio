@@ -1,5 +1,4 @@
 import React from "react";
-import ReactTyped from "react-typed";
 import "./Services.css";
 
 const Services = () => {
@@ -11,12 +10,12 @@ const Services = () => {
             My Expertise in <span>Technologies</span>
           </h1>
           <p>
-            As a Computer Science student with hands-on experience in AI, Machine
-            Learning, and Web Development, I specialize in creating innovative solutions
-            across various domains. I focus on building secure, scalable, and user-friendly
-            applications with cutting-edge technologies.
+            As a Computer Science student and AI enthusiast, I specialize in building intelligent, scalable systems. My work spans developing AI-powered solutions, real-time applications, and full-stack web platforms that blend advanced models with user-centric development.
           </p>
-          <button>Get in Touch</button>
+          {/* Updated button */}
+          <a href="#contact">
+            <button>Get in Touch</button>
+          </a>
         </div>
 
         <div className="service-item-container">
@@ -25,10 +24,7 @@ const Services = () => {
             <div className="item-desc">
               <h3>Full-Stack Web Development</h3>
               <p>
-                Expertise in building responsive and scalable web applications using
-                the MERN stack (MongoDB, Express.js, React.js, Node.js). I have built
-                full-stack applications including ContentCrafter AI, using technologies
-                like React.js, Tailwind CSS, and integrated services like Razorpay.
+                I build intuitive, responsive web applications using the MERN stack, incorporating AI models, payment systems, and real-time functionalities. I've developed platforms like ContentCrafter AI and ExpenseFlow, focusing on seamless user experiences and scalable architectures.
               </p>
             </div>
           </div>
@@ -38,23 +34,17 @@ const Services = () => {
             <div className="item-desc">
               <h3>AI & Machine Learning</h3>
               <p>
-                I design AI-driven solutions like Finance Assistant AI using LLMs,
-                RAG-based systems, and FAISS for semantic search and context retrieval. 
-                Additionally, I implement machine learning models with TensorFlow, PyTorch,
-                and Hugging Face.
+                I design AI-driven solutions using advanced techniques like fine-tuned LLMs (e.g., Mistral 7B), RAG pipelines, and FAISS for semantic search and context retrieval. From chatbots to predictive models, I deliver high-performance, scalable AI solutions.
               </p>
             </div>
           </div>
 
           <div className="services-item">
-            <i className="fa-solid fa-users"></i>
+            <i className="fa-solid fa-database"></i>
             <div className="item-desc">
               <h3>Data Science & Analytics</h3>
               <p>
-                I develop intelligent systems that analyze data and provide meaningful insights.
-                My experience includes building a Smart Query system for natural language
-                question-answering using the FLAN-T5 model and semantic chunking with
-                sentence transformers.
+                I create intelligent systems that analyze and extract insights from complex data sets. Using tools like TensorFlow, PyTorch, and Hugging Face, I work on tasks such as fraud detection, sentiment analysis, and building custom NLP models for dynamic decision-making.
               </p>
             </div>
           </div>
@@ -62,11 +52,19 @@ const Services = () => {
           <div className="services-item">
             <i className="fa-solid fa-mobile-alt"></i>
             <div className="item-desc">
+              <h3>Real-Time Web Applications</h3>
+              <p>
+                I specialize in building real-time web applications using technologies like Socket.IO and WebSockets. My projects include live chat platforms like ConnectFlow and real-time collaboration tools, ensuring smooth synchronization across devices.
+              </p>
+            </div>
+          </div>
+
+          <div className="services-item">
+            <i className="fa-solid fa-palette"></i>
+            <div className="item-desc">
               <h3>UI/UX Design</h3>
               <p>
-                I create intuitive, aesthetically pleasing, and user-friendly interfaces.
-                With a focus on usability, I have designed interactive user interfaces for
-                my AI-based projects using TailwindCSS and responsive design principles.
+                I design engaging, user-centric interfaces using TailwindCSS and responsive design principles. My focus is on creating clean, intuitive, and aesthetic UI for web and AI-driven applications, ensuring seamless experiences across all devices.
               </p>
             </div>
           </div>

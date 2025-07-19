@@ -1,7 +1,7 @@
 import React from "react";
 import ReactTyped from "react-typed";
 import "./Works.css";
-import w1 from "../../assets/w1.jpg";
+import w1 from "../../assets/1.png";
 import w2 from "../../assets/w2.jpg";
 import w3 from "../../assets/w3.jpg";
 import w4 from "../../assets/w4.jpg";

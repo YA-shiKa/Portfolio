@@ -1,5 +1,4 @@
 import React from "react";
-import ReactTyped from "react-typed";
 import logo from "../../assets/logo.png";
 import "./Footer.css";
 
@@ -29,10 +28,9 @@ const Footer = () => {
         </li>
         <li>
           <a href="https://leetcode.com/u/myleetcode2005/">
-          <i className="fa-solid fa-code"></i>
+            <i className="fa-solid fa-laptop-code"></i> {/* Updated LeetCode Icon */}
           </a>
-          </li>
-
+        </li>
       </ul>
     </footer>
   );

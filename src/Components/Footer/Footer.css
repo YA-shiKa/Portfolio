@@ -1,4 +1,4 @@
-footer {
+/* footer {
   background-color: #111e38;
   color: #fff;
   padding: 20px;
@@ -22,4 +22,37 @@ footer img {
 .footer-social-media li a {
   text-decoration: none;
   color: #fcb212;
+} */
+
+footer {
+  background-color: #111e38;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
+
+footer img {
+  width: 100px;
+}
+
+.footer-social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social-media li {
+  list-style: none;
+  margin: 10px;
+}
+
+.footer-social-media li a {
+  text-decoration: none;
+  color: #fcb212;  /* Uniform color for all icons */
+  font-size: 30px; /* Adjust the size if needed */
+}
+
+.footer-social-media li a:hover {
+  color: #ff007f; /* Optionally add a hover effect to change color */
+}
+
