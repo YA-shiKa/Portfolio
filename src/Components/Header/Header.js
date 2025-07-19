@@ -1,6 +1,5 @@
 import React from "react";
-import ReactTyped from "react-typed";
-import Typical from "react-typical";
+import { Typewriter } from "react-simple-typewriter";
 import profileImg from "../../assets/profile.png";
 import "./Header.css";
 
@@ -12,18 +11,21 @@ const Header = () => {
         <h2 className="fullname">Maligi Yashika</h2>
         <h2>
           I’m a{" "}
-          <Typical
-            steps={[
-              "Full Stack Developer 🚀",
-              1000,
-              "AI & ML Enthusiast 🤖",
-              1000,
-              "Web Developer 💻",
-              1000,
-            ]}
-            loop={Infinity}
-            wrapper="b"
-          />
+          <span style={{ color: "#0bc5ea", fontWeight: "bold" }}>
+            <Typewriter
+              words={[
+                "Full Stack Developer 🚀",
+                "AI & ML Enthusiast 🤖",
+                "Web Developer 💻",
+              ]}
+              loop={0}
+              cursor
+              cursorStyle="_"
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1500}
+            />
+          </span>
         </h2>
         <p>
           Passionate about building innovative solutions using cutting-edge
