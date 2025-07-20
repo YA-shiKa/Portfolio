@@ -17,7 +17,7 @@ const Footer = () => {
       {/* social */}
       <ul className="footer-social-media">
         <li>
-          <a href="https://github.com/YA-shiKa">
+          <a href="https://github.com/YA-shiKa" target="_blank" rel="noopener noreferrer">
             <i className="fa-brands fa-github"></i>
           </a>
         </li>
@@ -28,7 +28,12 @@ const Footer = () => {
         </li>
         <li>
           <a href="https://leetcode.com/u/myleetcode2005/">
-            <i className="fa-solid fa-laptop-code"></i> {/* Updated LeetCode Icon */}
+            <i className="fa-solid fa-laptop-code"></i>
+          </a>
+        </li>
+        <li>
+          <a href="tel:+919650073038" title="Call Me">
+            <i className="fa-solid fa-phone"></i>
           </a>
         </li>
       </ul>
